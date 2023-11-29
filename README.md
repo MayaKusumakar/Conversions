@@ -11,29 +11,30 @@ From: Inches, Feet, Yards, or Miles
 To: Inches, Feet, Yards, or Miles
 
 ## Requirements
-Users should be able to enter both upper and lower case letters for units
-Any amount of white space should be allowed before or between inputs on a line. A newline must come immediately after desired input on a line.
-Your program must have at least FOUR other functions besides main
-General
-There must be a comment at the top of your program describing what it does
-Each function in your program must have a comment
-Describing what the function does
-Describing the meaning of each parameter
-Describing what the function returns
-Print all floats to 2 decimal points unless stated otherwise
+  - Users should be able to enter both upper and lower case letters for units
+  - Any amount of white space should be allowed before or between inputs on a line. A newline must come immediately after desired input on a line.
+  - Your program must have at least FOUR other functions besides main
+  - Print all floats to 2 decimal points unless stated otherwise
+
 ## Restrictions
-No global variables may be used
-Assumptions
-Input will NOT always be valid
-If invalid input is received, your program should report it and terminate
+  - No global variables may be used
+
+## Assumptions
+  - Input will NOT always be valid
+  - If invalid input is received, your program should report it and terminate
 ## Input Errors
-There are 3 main categories of errors: format, unknown conversion type, invalid unit.
+There are 3 main categories of errors: format, unknown conversion type, invalid unit: 
 
-Format errors occur when the format of the input is correct. For example if asked the user for a temperature and they input "frogs" or "25 Cats", then a format error would occur. When a format error occurs you should print Invalid formatting. Ending program. and end the program.
+1. Format errors occur when the format of the input is correct.
+     - For example if asked the user for a temperature and they input "frogs" or "25 Cats", then a format error would occur. When a format error occurs you should print Invalid formatting. Ending program. and end the program.
 
-An unknown conversion type occurs when asking the user if they want to convert either temperatures or distance and they enter a single character that is something other than 't', 'T', 'd', or 'D'. In these cases you should print Unknown conversion type user_input chosen. Ending program. where user_input is the letter the user entered and quit end the program.
+2. An unknown conversion type occurs when asking the user if they want to convert either temperatures or distance and they enter a single character that is something other than 't', 'T', 'd', or 'D'.
+  - In these cases you should print Unknown conversion type user_input chosen. Ending program. where user_input is the letter the user entered and quit end the program.
 
-Invalid unit errors occur when asking the user what temperature/distance they want to convert from/to and they enter an unit aside from the ones specified. In these cases you should print user_input is not a valid t_d type. Ending program. and end the program. user_input is what the user entered and t_d is either temperature or distance depending on the type of conversion that was entered. For example, if we were converting temperatures and the user entered "42G" you would print G is not a valid temperature type. Ending program.
+3. Invalid unit errors occur when asking the user what temperature/distance they want to convert from/to and they enter an unit aside from the ones specified.
+  - In these cases you should print user_input is not a valid t_d type. Ending program. and end the program.
+  - user_input is what the user entered and t_d is either temperature or distance depending on the type of conversion that was entered.
+      - For example, if we were converting temperatures and the user entered "42G" you would print G is not a valid temperature type. Ending program.
 
 # Examples
 
